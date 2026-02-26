@@ -1,0 +1,9 @@
+[project]
+name = "example-mcp-server"
+version = "0.1.0"
+description = "Example MCP Server node for Tagentacle"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0",
+    "anyio>=4.0",
+]

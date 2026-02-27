@@ -1,7 +1,7 @@
 [package]
 name = "example_mcp_server"
-version = "0.1.0"
-description = "Example MCP Server node providing weather tools over the Tagentacle bus"
+version = "0.2.0"
+description = "Example MCP Server node providing weather tools via Streamable HTTP"
 authors = ["Tagentacle Contributors"]
 type = "executable"
 
@@ -9,4 +9,4 @@ type = "executable"
 node = "server:main"
 
 [dependencies]
-python = ["mcp", "anyio"]
+python = ["tagentacle-py-mcp"]
